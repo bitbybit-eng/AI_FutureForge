@@ -1,0 +1,16 @@
+{
+  "name": "forge-backend",
+  "version": "1.0.0",
+  "description": "AI FutureForge Backend - Express + SQLite + Ollama",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "ws": "^8.16.0"
+  }
+}

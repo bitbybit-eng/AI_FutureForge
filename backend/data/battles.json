@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "choice_a": "Software Engineer at Startup",
+    "choice_b": "Data Analyst at FAANG",
+    "context": "Career growth and financial stability",
+    "priority": "Balanced",
+    "winner": "A",
+    "confidence": 82,
+    "criteria": [
+      {
+        "name": "Long-Term Growth",
+        "a": 7,
+        "b": 8
+      },
+      {
+        "name": "Financial Potential",
+        "a": 8,
+        "b": 7
+      },
+      {
+        "name": "Risk Level",
+        "a": 6,
+        "b": 4
+      },
+      {
+        "name": "Goal Alignment",
+        "a": 8,
+        "b": 9
+      },
+      {
+        "name": "Personal Satisfaction",
+        "a": 7,
+        "b": 6
+      },
+      {
+        "name": "Timeline Feasibility",
+        "a": 9,
+        "b": 5
+      },
+      {
+        "name": "Skill Leverage",
+        "a": 6,
+        "b": 7
+      },
+      {
+        "name": "Reversibility",
+        "a": 4,
+        "b": 8
+      }
+    ],
+    "reasoning": "Option A's high learning curve and fast-paced environment are attractive for those seeking rapid skill development and potentially lucrative outcomes. In contrast, Option B's slower promotion pace may hinder long-term career advancement. Moreover, the equity potential in startups offers a unique opportunity for wealth creation, which is not replicable in large tech companies.",
+    "hybrid": "Hybrid strategy combining both options: Consider starting as a Data Analyst at FAANG to gain experience and build a strong foundation, then transition to a Software Engineer role at a startup to leverage your skills and equity potential.",
+    "created_at": "2026-03-25T09:11:31.742Z"
+  }
+]

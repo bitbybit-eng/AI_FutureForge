@@ -1,0 +1,175 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #040810;
+  color: white;
+  font-family: 'Rajdhani', sans-serif;
+  min-height: 100vh;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 245, 255, 0.22);
+}
+
+/* Glow animations */
+@keyframes glow {
+  0%, 100% { text-shadow: 0 0 18px #00f5ff55; }
+  50% { text-shadow: 0 0 48px #00f5ffbb, 0 0 90px #00f5ff22; }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: .35; transform: scale(.9); }
+  50% { opacity: 1; transform: scale(1.15); }
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateX(18px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes shimmer {
+  0% { transform: translateX(-120%); }
+  100% { transform: translateX(220%); }
+}
+
+@keyframes scanline {
+  0% { top: -2px; }
+  100% { top: 100vh; }
+}
+
+@keyframes dotBounce {
+  0%, 100% { opacity: .3; transform: scale(.8); }
+  50% { opacity: 1; transform: scale(1.2); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-glow { animation: glow 4s ease-in-out infinite; }
+.animate-pulse-custom { animation: pulse 2s ease-in-out infinite; }
+.animate-spin-slow { animation: spin 1.4s linear infinite; }
+.animate-fade-in { animation: fadeIn 0.5s ease forwards; }
+.animate-slide-in { animation: slideIn 0.3s ease; }
+
+/* Panel styles */
+.panel {
+  @apply bg-forge-panel border border-white/10 backdrop-blur-md p-6 rounded-none relative;
+}
+
+.panel-glow {
+  box-shadow: inset 0 0 40px rgba(0, 0, 0, 0.1);
+}
+
+/* Input styles */
+input, textarea, select {
+  font-family: 'Rajdhani', sans-serif;
+  background: rgba(255, 255, 255, 0.025);
+  color: rgba(255, 255, 255, 0.9);
+  outline: none;
+  border-radius: 0;
+}
+
+input::placeholder, textarea::placeholder {
+  color: rgba(255, 255, 255, 0.15);
+}
+
+/* Button base */
+button {
+  font-family: 'Rajdhani', sans-serif;
+  cursor: pointer;
+  border-radius: 0 !important;
+}
+
+/* Grid overlay effect */
+.grid-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.012;
+  background-image: 
+    linear-gradient(rgba(0, 245, 255, 0.6) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 245, 255, 0.6) 1px, transparent 1px);
+  background-size: 55px 55px;
+}
+
+/* Scanline effect */
+.scanline {
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: rgba(0, 245, 255, 0.05);
+  z-index: 1;
+  pointer-events: none;
+  animation: scanline 9s linear infinite;
+}
+
+/* Custom focus styles */
+input:focus, textarea:focus, select:focus {
+  border-color: rgba(0, 245, 255, 0.5) !important;
+  border-bottom-color: #00f5ff !important;
+  box-shadow: inset 0 0 20px rgba(0, 245, 255, 0.04);
+}
+
+/* Tag styles */
+.tag {
+  @apply px-3 py-1 text-xs tracking-widest uppercase whitespace-nowrap;
+}
+
+.tag-sm {
+  @apply px-2 py-0.5 text-[10px];
+}
+
+/* Loading shimmer */
+.shimmer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(90deg, transparent, rgba(0, 245, 255, 0.15), transparent);
+  animation: shimmer 1.5s linear infinite;
+}
+
+/* Typing dots animation */
+.typing-dot {
+  @apply w-1.5 h-1.5 rounded-full bg-forge-yellow;
+}
+
+.typing-dot:nth-child(1) { animation: dotBounce 1.2s ease 0s infinite; }
+.typing-dot:nth-child(2) { animation: dotBounce 1.2s ease .3s infinite; }
+.typing-dot:nth-child(3) { animation: dotBounce 1.2s ease .6s infinite; }

@@ -1,0 +1,166 @@
+[
+  {
+    "id": 1,
+    "goal": "Get hired as Senior Software Engineer at a top tech company within 12 months",
+    "timeline": "6 months",
+    "style": "Structured",
+    "phases": [
+      {
+        "phase": 1,
+        "title": "Foundation Sprint",
+        "theme": "Core Skills",
+        "duration": "Weeks 1-4",
+        "tasks": [
+          "Set up environment",
+          "Complete basics",
+          "First project"
+        ],
+        "milestone": "Basic proficiency"
+      },
+      {
+        "phase": 2,
+        "title": "Skill Deepening",
+        "theme": "Intermediate",
+        "duration": "Weeks 5-8",
+        "tasks": [
+          "Advanced topics",
+          "Build projects",
+          "Get reviews"
+        ],
+        "milestone": "Intermediate level"
+      },
+      {
+        "phase": 3,
+        "title": "Advanced Focus",
+        "theme": "Senior Prep",
+        "duration": "Weeks 9-12",
+        "tasks": [
+          "System design",
+          "Behavioral prep",
+          "Networking"
+        ],
+        "milestone": "Interview ready"
+      },
+      {
+        "phase": 4,
+        "title": "Job Push",
+        "theme": "Career Launch",
+        "duration": "Weeks 13-16",
+        "tasks": [
+          "Apply widely",
+          "Interview",
+          "Negotiate"
+        ],
+        "milestone": "Job offer"
+      }
+    ],
+    "daily_habits": [
+      {
+        "habit": "Morning study session",
+        "duration": "2 hours",
+        "why": "Fresh mind absorbs better"
+      },
+      {
+        "habit": "Practice coding",
+        "duration": "1 hour",
+        "why": "Skill reinforcement"
+      }
+    ],
+    "weekly_targets": [
+      "Complete course modules",
+      "Build project component",
+      "Network"
+    ],
+    "metrics": [
+      "Complete all phases",
+      "Build portfolio",
+      "Land interviews"
+    ],
+    "warning": "Don't get discouraged by setbacks or failures – they're an opportunity to learn and grow",
+    "quote": "Believe in yourself and your abilities. You have what it takes to become a top-tier Senior Software Engineer.",
+    "title": "Transforming into a Top-Tier Senior Software Engineer",
+    "created_at": "2026-03-25T09:14:22.034Z"
+  },
+  {
+    "id": 2,
+    "goal": "Get hired as Senior Software Engineer at a top tech company within 12 months",
+    "timeline": "2 years",
+    "style": "Bootcamp intensity",
+    "phases": [
+      {
+        "phase": 1,
+        "title": "Foundation Sprint",
+        "theme": "Core Skills",
+        "duration": "Weeks 1-4",
+        "tasks": [
+          "Set up environment",
+          "Complete basics",
+          "First project"
+        ],
+        "milestone": "Basic proficiency"
+      },
+      {
+        "phase": 2,
+        "title": "Skill Deepening",
+        "theme": "Intermediate",
+        "duration": "Weeks 5-8",
+        "tasks": [
+          "Advanced topics",
+          "Build projects",
+          "Get reviews"
+        ],
+        "milestone": "Intermediate level"
+      },
+      {
+        "phase": 3,
+        "title": "Advanced Focus",
+        "theme": "Senior Prep",
+        "duration": "Weeks 9-12",
+        "tasks": [
+          "System design",
+          "Behavioral prep",
+          "Networking"
+        ],
+        "milestone": "Interview ready"
+      },
+      {
+        "phase": 4,
+        "title": "Job Push",
+        "theme": "Career Launch",
+        "duration": "Weeks 13-16",
+        "tasks": [
+          "Apply widely",
+          "Interview",
+          "Negotiate"
+        ],
+        "milestone": "Job offer"
+      }
+    ],
+    "daily_habits": [
+      {
+        "habit": "Morning study session",
+        "duration": "2 hours",
+        "why": "Fresh mind absorbs better"
+      },
+      {
+        "habit": "Practice coding",
+        "duration": "1 hour",
+        "why": "Skill reinforcement"
+      }
+    ],
+    "weekly_targets": [
+      "Complete course modules",
+      "Build project component",
+      "Network"
+    ],
+    "metrics": [
+      "Complete all phases",
+      "Build portfolio",
+      "Land interviews"
+    ],
+    "warning": "Procrastination can derail even the best-laid plans. Stay focused and avoid distractions.",
+    "quote": "Believe in yourself, and you'll be unstoppable! Stay committed to your goals, and you'll achieve them.",
+    "title": "Accelerated Tech Expertise Roadmap",
+    "created_at": "2026-03-25T09:16:31.163Z"
+  }
+]
